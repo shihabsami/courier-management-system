@@ -1,8 +1,8 @@
 package cms.model.vehicle;
 
 import cms.model.interfaces.LandVehicle;
-import cms.maintenance.LandVehicleServiceHistory;
 import cms.maintenance.TruckServiceHistory;
+import cms.maintenance.LandVehicleServiceHistory;
 
 public class Truck extends AbstractVehicle implements LandVehicle
 {
